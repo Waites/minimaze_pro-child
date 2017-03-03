@@ -1,0 +1,131 @@
+/*
+ Theme Name:   Minamaze Pro Child
+ Theme URI:    http://www.safyyrephrogg.com/c/gnoupdates/minamaze_pro-child/
+ Description:  GNOSEF customization
+ Author:       Jesse Hobson
+ Author URI:   http://safyyrephrogg.com
+ Template:     Minamaze_Pro
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Minamaze_Pro-child
+*/
+
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #222;	
+	font-family: Open Sans, Helvetica, Arial;
+	font-size: 12px;
+	line-height: 1.7;
+	word-wrap: break-word;
+}
+body,
+#body-core { 
+	background: #BBBBBB;
+	min-width: 320px;
+}
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	color: #333333;
+	clear: both;
+	font-weight: bold;
+	margin: 0 0 0.8em;
+	font-family: Open Sans, Helvetica, Arial;
+	line-height: 1.5;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.jwh {
+	color: #FFFFFF;
+}
+#header {
+	padding: 0;
+/*	background-color: #333333;
+*/	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#header .header-links > ul > li a{
+	color: #339999;
+	padding: 25px 20px;
+	font-weight: bold;
+}
+/*.header-style2.header-sticky #header-links {
+	background-color: #333333;
+
+}
+.header-style1.header-sticky #header {
+	background-color: #333333;
+}*/
+.slider-full #slider .rslides-container {
+	padding: 0 0 20px;
+	background-color: #333333;
+}
+#section-home {
+	text-align: center;
+	padding: 0 10px;
+	color: #DDDDDD;
+}
+#section-home .section {
+	display: block;
+	background: #333333;
+	padding: 0px;
+	border: 10px solid #333333;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#section-home h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #DDDDDD;
+}
+.widget li a { 
+	padding: 5px 0px 5px 20px; 
+	display:inline-block; 
+}
+.blog-article {
+	padding: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #333333;
+
+}
+
+.gno-banner{
+text-shadow: 2px 2px 0px #000000;
+padding: 10px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 12pt;
+color: #bbbbbb;
+text-align: center;
+}
+.gno-banner-small{
+text-shadow: 2px 2px 0px #000000;
+padding: 10px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 10pt;
+color: #bbbbbb;
+text-align: center;
+}
+/*#pre-header-social li.paypal a, #pre-header-social li.paypal a:hover {
+    background: url(http://www.safyyrephrogg.com/c/gnosef/wp-content/uploads/2017/01/Gnosef-button.png) no-repeat center;
+    width: 120px;
+    background-size: 110px;
+}*/
+#pre-header-social li.paypal a, #pre-header-social li.paypal a:hover {
+/*    background: url(http://www.safyyrephrogg.com/c/gnosef/wp-content/uploads/2017/01/Gnosef-button.png) no-repeat center;
+*/    width: 120px !important;
+    background-size: 110px !important;
+}
